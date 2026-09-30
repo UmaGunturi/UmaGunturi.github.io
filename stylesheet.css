@@ -202,13 +202,13 @@ span.highlight {
 .callout-label { display: inline-block; margin-right: 8px; padding: 1px 9px; border-radius: 999px; background: #5e7d68; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.3px; vertical-align: 1px; }
 
 .news { list-style: none; margin: 8px 0 0; padding: 0; }
-.news li { display: flex; align-items: flex-start; gap: 14px; padding: 6px 0; line-height: 1.5; }
-.news-date { flex: 0 0 auto; width: 72px; box-sizing: border-box; text-align: center; white-space: nowrap; padding: 3px 0; border-radius: 6px; font-weight: 700; font-size: 12px !important; letter-spacing: 0.3px; line-height: 1.4; margin-top: 1px; }
+.news li { display: flex; align-items: baseline; gap: 14px; padding: 6px 0; line-height: 1.5; }
+.news-date { flex: 0 0 68px; white-space: nowrap; color: #98606f; font-weight: 700; font-size: 13px !important; }
 .news-text { flex: 1; min-width: 0; }
 .news-older { margin-top: 6px; }
 .news-older summary { cursor: pointer; color: #98606f; font-size: 14px; padding: 4px 0; }
 .news-older summary:hover { color: #c28d9d; }
 @media (max-width: 520px) {
   .news li { gap: 10px; }
-  .news-date { width: 64px; }
+  .news-date { flex-basis: 60px; }
 }
