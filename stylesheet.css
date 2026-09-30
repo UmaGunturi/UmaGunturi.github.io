@@ -212,27 +212,3 @@ span.highlight {
   .news li { gap: 10px; }
   .news-date { width: 64px; }
 }
-
-/* ---- landing page ---- */
-body.landing { margin: 0; background: #fff; color: #222; }
-body.landing, body.landing p, body.landing a, body.landing li { font-size: 15px; }
-.page { max-width: 1040px; margin: 0 auto; padding: 48px 28px 32px; display: flex; gap: 48px; align-items: flex-start; }
-.side { flex: 0 0 230px; position: sticky; top: 40px; }
-.avatar { width: 190px; height: 190px; display: block; }
-.side-name { font-size: 30px; font-weight: 700; margin: 16px 0 4px; letter-spacing: -0.3px; }
-.side-tag { color: #7b3f6e; font-size: 13px !important; line-height: 1.45; margin: 0 0 18px; }
-.side-nav { display: flex; flex-direction: column; gap: 7px; padding: 14px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
-.side-nav a { font-weight: 700; }
-.side-links { margin: 14px 0 0; font-size: 13px !important; line-height: 1.7; }
-.side-links a { font-size: 13px !important; }
-.main { flex: 1; min-width: 0; }
-.main > p { margin: 0 0 12px; line-height: 1.6; }
-.main .callout { margin: 16px 0 6px; }
-.section { font-size: 20px; font-weight: 700; margin: 22px 0 4px; }
-.main .news li { padding: 4px 0; }
-@media (max-width: 760px) {
-  .page { flex-direction: column; gap: 20px; padding: 28px 16px; }
-  .side { position: static; flex: none; width: 100%; text-align: center; }
-  .avatar { width: 150px; height: 150px; margin: 0 auto; }
-  .side-nav { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 6px 16px; }
-}
