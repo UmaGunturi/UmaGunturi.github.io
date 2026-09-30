@@ -198,24 +198,16 @@ span.highlight {
   padding-left: 0px;
 }
 
-.selected-pubs { margin: 6px 0 4px; }
-.pub { display: flex; gap: 16px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #eee; }
-.pub:last-child { border-bottom: 0; }
-.pub .venue { flex: 0 0 72px; box-sizing: border-box; padding: 7px 4px; text-align: center; border: 1px solid #e6d3e0; border-radius: 6px; background: #faf4f8; color: #7b3f6e; font-weight: 700; font-size: 13px; line-height: 1.2; letter-spacing: 0.3px; }
-.pub .venue span { display: block; font-weight: 400; font-size: 12px; color: #9a6a8c; }
-.pub-body { flex: 1; min-width: 0; line-height: 1.45; }
-.pub-title { font-weight: 700; }
-.pub-authors { color: #444; }
-.pub-links { margin-top: 4px; font-size: 13px; }
-.pub-links a { margin-right: 10px; }
-.pub-links .tag { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 999px; background: #f1f1f1; color: #555; font-size: 12px; }
-.pub-links .tag.award { background: #fff4d6; color: #8a5a00; }
-.pub-links .soon { color: #888; font-size: 12px; }
-@media (max-width: 520px) {
-  .pub { flex-direction: column; gap: 6px; }
-  .pub .venue { flex: none; padding: 3px 10px; }
-  .pub .venue span { display: inline; margin-left: 4px; }
-}
-
 .callout { margin: 8px 0 4px; padding: 14px 16px; border-left: 4px solid #7b3f6e; border-radius: 0 8px 8px 0; background: #faf4f8; line-height: 1.55; }
 .callout-label { display: inline-block; margin-right: 8px; padding: 1px 9px; border-radius: 999px; background: #7b3f6e; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.3px; vertical-align: 1px; }
+
+.news { list-style: none; margin: 8px 0 0; padding: 0; }
+.news li { display: flex; gap: 14px; padding: 6px 0; line-height: 1.5; }
+.news-date { flex: 0 0 68px; color: #7b3f6e; font-weight: 700; font-size: 13px; padding-top: 1px; }
+.news-text { flex: 1; min-width: 0; }
+.news-older { margin-top: 6px; }
+.news-older summary { cursor: pointer; color: #7b3f6e; font-size: 14px; padding: 4px 0; }
+.news-older summary:hover { color: #b0527f; }
+@media (max-width: 520px) {
+  .news li { flex-direction: column; gap: 0; }
+}
