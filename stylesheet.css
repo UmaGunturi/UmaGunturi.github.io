@@ -71,13 +71,13 @@
 }
 
 a {
-  color: #1772d0;
+  color: #7b3f6e;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #b0527f;
   text-decoration: none;
 }
 
@@ -201,8 +201,8 @@ span.highlight {
 .selected-pubs { margin: 6px 0 4px; }
 .pub { display: flex; gap: 16px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #eee; }
 .pub:last-child { border-bottom: 0; }
-.pub .venue { flex: 0 0 72px; box-sizing: border-box; padding: 7px 4px; text-align: center; border: 1px solid #cfe0f5; border-radius: 6px; background: #f3f8fe; color: #1772d0; font-weight: 700; font-size: 13px; line-height: 1.2; letter-spacing: 0.3px; }
-.pub .venue span { display: block; font-weight: 400; font-size: 12px; color: #5a7fa8; }
+.pub .venue { flex: 0 0 72px; box-sizing: border-box; padding: 7px 4px; text-align: center; border: 1px solid #e6d3e0; border-radius: 6px; background: #faf4f8; color: #7b3f6e; font-weight: 700; font-size: 13px; line-height: 1.2; letter-spacing: 0.3px; }
+.pub .venue span { display: block; font-weight: 400; font-size: 12px; color: #9a6a8c; }
 .pub-body { flex: 1; min-width: 0; line-height: 1.45; }
 .pub-title { font-weight: 700; }
 .pub-authors { color: #444; }
@@ -216,3 +216,6 @@ span.highlight {
   .pub .venue { flex: none; padding: 3px 10px; }
   .pub .venue span { display: inline; margin-left: 4px; }
 }
+
+.callout { margin: 8px 0 4px; padding: 14px 16px; border-left: 4px solid #7b3f6e; border-radius: 0 8px 8px 0; background: #faf4f8; line-height: 1.55; }
+.callout-label { display: inline-block; margin-right: 8px; padding: 1px 9px; border-radius: 999px; background: #7b3f6e; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.3px; vertical-align: 1px; }
