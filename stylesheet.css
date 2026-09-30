@@ -197,3 +197,6 @@ span.highlight {
   margin-left: 12px; /* Reduce the gap between bullet and border */
   padding-left: 0px;
 }
+
+.selected-pubs { padding-left: 18px; }
+.selected-pubs li { margin-bottom: 12px; line-height: 1.45; }
