@@ -198,11 +198,7 @@ span.highlight {
   padding-left: 0px;
 }
 
-.callout { margin: 8px 0 4px; padding: 14px 16px; border-left: 4px solid #5e7d68; border-radius: 0 8px 8px 0; background: #eff4f0; line-height: 1.55; }
-.callout-label { display: inline-block; margin-right: 8px; padding: 1px 9px; border-radius: 999px; background: #5e7d68; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.3px; vertical-align: 1px; }
 
-.callout { margin: 8px 0 4px; padding: 14px 16px; border-left: 4px solid #5e7d68; border-radius: 0 8px 8px 0; background: #eff4f0; line-height: 1.55; }
-.callout-label { display: inline-block; margin-right: 8px; padding: 1px 9px; border-radius: 999px; background: #5e7d68; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.3px; vertical-align: 1px; }
 
 .news { list-style: none; margin: 8px 0 0; padding: 0; }
 .news li { display: flex; align-items: baseline; gap: 14px; padding: 6px 0; line-height: 1.5; }
